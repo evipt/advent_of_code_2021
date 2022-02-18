@@ -95,7 +95,7 @@ def eliminate(data):
 
 
 if __name__ == '__main__':
-	with open('test.txt','r') as f:
+	with open('input.txt','r') as f:
 		puzzle_data = f.readlines()
 
 		gamma = find_common(puzzle_data)
