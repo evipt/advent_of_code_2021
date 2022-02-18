@@ -15,7 +15,6 @@ def get_majority(n, data):
 
 
 def find_common(data):
-	# elm = data.readline()
 	bits = len(data[0]) -1 
 	print('bits is: ', type(bits), 'and= ', bits)
 	com = ''

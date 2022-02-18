@@ -38,8 +38,6 @@ if __name__ == '__main__':
 
 # PART TWO
 	forwards = 0
-	# downs = 0 
-	# ups = 0
 	depth = 0
 	aim = 0 
 	for input in puzzle_data:
@@ -52,7 +50,7 @@ if __name__ == '__main__':
 		# print("command: ", command)
 
 		num = int(step[1])
-		# rint("ammount: ", num)
+		# print("ammount: ", num)
 
 		if command == 'forward':
 			forwards += num
